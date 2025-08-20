@@ -16,7 +16,7 @@ No external dependencies required. Just make sure you're using Python 3.6 or hig
 ## 🧠 Usage
 
 ```python
-from best_subset import find_best_subset
+from findsum import find_best_subset
 
 subset, total = find_best_subset(10.0, 1.5, 3.2, 4.8, 2.0)
 print(f"Best subset: {subset}, Total sum: {total}")
