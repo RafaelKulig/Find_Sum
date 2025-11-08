@@ -1,7 +1,7 @@
 from itertools import combinations
 from typing import List, Tuple
 
-def find_best_subset(target_sum:int, *args: float) -> Tuple[List[float], float]:
+def find_best_subset(target_sum:float, *args: float) -> Tuple[List[float], float]:
     """
     Finds the subset of numbers that is closest to the target sum without exceeding it.
     
